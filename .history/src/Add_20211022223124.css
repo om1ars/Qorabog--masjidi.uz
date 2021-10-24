@@ -1,0 +1,16 @@
+.add__container {
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    background-color: lightgreen;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+.close {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}

@@ -1,0 +1,38 @@
+.adress {
+    padding: 40px;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: yellow;
+}
+.adress__context {
+    flex: .5;
+    padding: 25px;
+}
+.singleText > h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.adress__image {
+    flex: .5;
+}
+
+.adress__icons {
+    margin-top: 80px;
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+}
+.adress__icons > span {
+
+}
+
+@media (max-width: 500px) {
+    .adress {
+        display: flex;
+        flex-direction: column;
+    }
+    .adress__icons > span {
+        margin-left: 15px;
+    }
+}

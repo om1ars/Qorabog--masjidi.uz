@@ -1,0 +1,30 @@
+.popular__ones {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container__box {
+    display: flex;
+    margin-top: 12px;
+}
+.bx {
+    margin-left: 22px;
+    padding: 8px 12px;
+    background-color: #d4e9e2;
+    border-radius: 5px;
+}
+@media (max-width: 450px){
+    .container__box {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .bx {
+        margin-top: 12px;
+    }
+}
+.quran__chapters {
+    width: ;
+}

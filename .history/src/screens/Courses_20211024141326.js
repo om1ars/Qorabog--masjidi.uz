@@ -1,0 +1,31 @@
+import { BookOutlined, Tv } from "@material-ui/icons";
+import React from "react";
+import Categories from "./Categories";
+import "./Courses.css";
+// import { coursesSideb  ar } from "../CoursesCategories";
+import { Link } from "react-router-dom";
+
+export const Courses = ({categoryData}) => {
+  return (
+    <div style={{ display: "flex" }} className="courses">
+      <div className="sidebar" style={{}}>
+        <img src="" />
+        {categoryData.map(({ id, title, icon }) => (
+            <div className="sidebar__item">
+                        <Link style={{textDecoration: 'none', color: 'black'}} to={`/singlecourse/${id}`}>
+
+              <span>
+                <BookOutlined />
+              </span>
+              <span>{title}</span>
+               </Link>
+            </div>
+         
+        ))}
+      </div>
+      <div className="category__container">
+        <Categories />
+      </div>
+    </div>
+  );
+};

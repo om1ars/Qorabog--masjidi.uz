@@ -1,0 +1,15 @@
+.adress {
+    padding: 40px;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: yellow;
+}
+.adress__context {
+    flex: .4;
+    padding: 25px;
+}
+.singleText >  {}
+.adress__image {
+    flex: .5;
+}

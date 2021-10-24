@@ -1,0 +1,7 @@
+.adress {
+    padding: 40;
+    display: flex;
+}
+.adress__context {
+    flex: .4;
+}

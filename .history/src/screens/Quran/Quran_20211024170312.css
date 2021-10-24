@@ -1,0 +1,68 @@
+.popular__ones {
+    margin-top: 25px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+.quran__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quran__container > .input__bx {
+    width: 500px;
+    border: 3px dashed green;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+.input__bx > input {
+    width: 95%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.container__box {
+    display: flex !important;
+    margin-top: 12px !important;
+    align-items: center ;
+}
+.bx {
+    margin-left: 22px;
+    padding: 8px 12px;
+    background-color: #d4e9e2;
+    border-radius: 5px;
+}
+@media (max-width: 450px){
+    .container__box {
+        display: flex;
+        width: 75%;
+        margin-right: 18px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .bx {
+        margin-top: 12px;
+    }
+    .quran__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .input__bx { 
+        width: 240px;
+    }
+    .input__bx > input {
+        
+    }
+}
+.quran__chapters {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}

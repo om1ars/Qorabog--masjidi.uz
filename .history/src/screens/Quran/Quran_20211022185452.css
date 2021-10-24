@@ -1,0 +1,75 @@
+.popular__ones {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container__box {
+    display: flex;
+    margin-top: 12px;
+}
+.bx {
+    margin-left: 22px;
+    padding: 8px 12px;
+    background-color: #d4e9e2;
+    border-radius: 5px;
+}
+@media (max-width: 450px){
+    .container__box {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .bx {
+        margin-top: 12px;
+    }
+}
+.quran__chapters {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+.single__chapter {
+    display: flex;
+    border: 1px solid lightgray;
+    width: 290px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    transition: transform ease .3s;
+    margin-left: 38px;
+}
+.single__chapter > span {
+    background-color: #d4e9e2;
+    width: 35px;
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    height: 35px;
+    border-radius: 50%;
+}
+.single__chapter > div{
+    display: flex;
+    flex-direction: column;
+
+}
+.single__chapter > img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.single__chapter:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1px 0 rgba(0,0,0, 1);
+}
+a {
+    text-decoration: none;
+}

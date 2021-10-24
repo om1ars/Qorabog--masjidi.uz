@@ -1,0 +1,28 @@
+import { BookOutlined, Tv } from "@material-ui/icons";
+import React from "react";
+import Categories from "./Categories";
+import "./Courses.css";
+import { coursesSidebar } from "../CoursesCategories";
+
+export const Courses = () => {
+  return (
+    <div style={{ display: "flex" }} className="courses">
+      <div className="sidebar" style={{}}>
+        <img src="" />
+        {coursesSidebar.map(({ id, title, icon }) => (
+          <Link to={`/singlecourse`}>
+            <div className="sidebar__item">
+              <span>
+                <BookOutlined />
+              </span>
+              <span>{title}</span>
+            </div>
+          </Link>
+        ))}
+      </div>
+      <div className="category__container">
+        <Categories />
+      </div>
+    </div>
+  );
+};

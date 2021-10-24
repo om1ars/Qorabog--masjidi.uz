@@ -1,0 +1,15 @@
+.popular__ones {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container__box {
+    display: flex;
+}
+.bx {
+    margin-left: 22px;
+    padding: 8px 12px;
+    background-color: ;
+}

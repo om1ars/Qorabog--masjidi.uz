@@ -1,0 +1,21 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    background-color: #d4e9e2;
+}
+.sidebar__item {
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 100%;
+    flex-direction: column;
+}
+.sidebar__item > span {
+    margin-top: 18px;
+}
+.sidebar__icon {
+    margin-top: 18px;
+} 

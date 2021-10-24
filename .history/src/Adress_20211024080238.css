@@ -1,0 +1,13 @@
+.adress {
+    padding: 40;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    backc
+}
+.adress__context {
+    flex: .4;
+}
+.adress__image {
+    flex: .5;
+}

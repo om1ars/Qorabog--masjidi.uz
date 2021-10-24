@@ -1,0 +1,228 @@
+.homeScreen__top {
+  margin-top: 16vh;
+  background-color: #d4e9e2;
+  text-align: center;
+  padding: 32px;
+  margin-bottom: 20px;
+}
+
+.homeScreen__top > h4 {
+  color: #1e3932;
+  font-weight: 600;
+  font-size: large;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .homeScreen__top > h4 {
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 425px) {
+  .homeScreen__top > h4 {
+    font-size: medium;
+  }
+}
+
+.homeScreen__top > h4 > a {
+  color: #1e3932;
+  text-decoration: underline;
+}
+
+.homeScreen__top > h4 > a:hover {
+  text-decoration: none;
+}
+
+.homeScreen__bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4e9e2;
+}
+
+.homeScreen__bottomLeft {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.homeScreen__bottomRight {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.hvrbox img {
+  max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+}
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+
+.homeScreen__bottomLeft > h4 {
+  color: #1e3932;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.homeScreen__bottomLeft > p {
+  color: #1e3932;
+  font-weight: 600;
+  line-height: 1.7;
+  font-size: 19px;
+  max-width: 450px;
+}
+
+.homeScreen__bottomLeft > button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  color: #1e3932;
+  font-weight: 600;
+  outline: none;
+  font-size: medium;
+}
+
+.homeScreen__bottomLeft > button:hover {
+  background-color: rgba(30, 57, 50, 0.1);
+}
+
+.homeScreen__bottomRight {
+}
+
+.homeScreen__bottomRight > img {
+  object-fit: contain;
+  max-width: 650px;
+}
+
+@media (max-width: 1024px) {
+  .homeScreen__bottomRight > img {
+    max-width: 470px;
+  }
+
+  .homeScreen__bottomLeft > p {
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeScreen__bottomRight > img {
+    max-width: 380px;
+  }
+  .homeScreen__bottomLeft {
+    max-width: 300px;
+  }
+  .homeScreen__bottom {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .homeScreen__bottom {
+    flex-direction: column;
+    padding-right: 20px;
+  }
+  .homeScreen__bottomLeft {
+    order: 2;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 375px) {
+  .homeScreen__bottomRight > img {
+    max-width: 340px;
+  }
+  .homeScreen__bottom {
+    align-items: flex-start;
+  }
+}
+
+.homeScreen__discover {
+  display: flex;
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .homeScreen__discover {
+    flex-direction: column;
+  }
+}

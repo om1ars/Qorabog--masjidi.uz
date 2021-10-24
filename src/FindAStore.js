@@ -1,0 +1,14 @@
+import React from 'react'
+import './FindAStore.css'
+import { Link } from 'react-router-dom'
+import LocationOnIcon from '@material-ui/icons/LocationOn'
+
+function FindAStore() {
+  return (
+    <a href='https://maps.app.goo.gl/H3kf5zSPJC9vjmCm9'  className='findAStore' style={{alignItems:'center', display: 'flex'}}>
+      <LocationOnIcon />
+    </a>
+  )
+}
+
+export default FindAStore

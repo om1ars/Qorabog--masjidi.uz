@@ -1,0 +1,11 @@
+.app {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 0!important;
+}

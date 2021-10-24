@@ -1,0 +1,93 @@
+[
+  {
+    "drinks": [
+      {
+        "path": "/drinks/hot-coffees",
+        "type": "Bomdod",
+        "time": '05:26'
+        "image": "data:image/jpeg;base64,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"
+      },
+      {
+        "path": "/drinks/hot-teas",
+        "type": "Hot Teas",
+        "image": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "path": "/drinks/hot-drinks",
+        "type": "Hot Drinks",
+        "image": "https://globalassets.starbucks.com/assets/d51e67249b7c4d5383fc68b3be1d62eb.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/drinks/frappuccino-blended-beverages",
+        "type": "Frappuccino® Blended Beverages",
+        "image": "https://globalassets.starbucks.com/assets/06cfd44aac9f4b488495e0f7da404825.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "path": "/drinks/cold-coffees",
+        "type": "Cold Coffees",
+        "image": "https://globalassets.starbucks.com/assets/21f012c25a714d81b211a19094fb90cc.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/drinks/iced-teas",
+        "type": "Iced Teas",
+        "image": "https://globalassets.starbucks.com/assets/0f3e19ad457f4b9f9fb5afde29d0c7cf.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/drinks/cold-drinks",
+        "type": "Cold Drinks",
+        "image": "https://globalassets.starbucks.com/assets/1fbfdef2d1814c86ae271460a5b85f93.jpg?impolicy=1by1_wide_1242"
+      }
+    ],
+    "food": [
+      {
+        "path": "/food/hot-breakfast",
+        "type": "Hot Breakfast",
+        "image": "https://globalassets.starbucks.com/assets/f9a4cd143c4342abbb4f60b7fab4e6df.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/food/bakery",
+        "type": "Bakery",
+        "image": "https://globalassets.starbucks.com/assets/2362e79aa0ab4c37a930956c67ab557a.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/food/lunch",
+        "type": "Lunch",
+        "image": "https://globalassets.starbucks.com/assets/02ea801e3aca434fa2fcccfcd4adba8c.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/food/snacks-and-sweets",
+        "type": "Snacks & Sweets",
+        "image": "https://globalassets.starbucks.com/assets/374230e32c03466e9f1696551d843f3b.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/food/oatmeal-and-yogurt",
+        "type": "Oatmeal & Yogurt",
+        "image": "https://globalassets.starbucks.com/assets/3e10e6d4c9cb412b9f37d421c0376465.jpg?impolicy=1by1_wide_1242"
+      }
+    ],
+    "atHomeCoffee": [
+      {
+        "path": "/at-home-coffee/whole-bean",
+        "type": "Whole Bean",
+        "image": "https://globalassets.starbucks.com/assets/69b578aa962c40f98d88d9d521c5410c.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/at-home-coffee/verismo-pods",
+        "type": "Verismo® Pods",
+        "image": "https://globalassets.starbucks.com/assets/833e95732cc849a4b1fe1d315771ae0a.jpg?impolicy=1by1_wide_1242"
+      },
+      {
+        "path": "/at-home-coffee/via-instant",
+        "type": "VIA® Instant",
+        "image": "https://globalassets.starbucks.com/assets/27d30b52d95948fc81141af6bb91a108.jpg?impolicy=1by1_wide_1242"
+      }
+    ],
+    "merchandise": [
+      {
+        "path": "/merchandise/drinkware",
+        "type": "Drinkware",
+        "image": "https://globalassets.starbucks.com/assets/b3c749e064534f608fcc84076329f39d.jpg?impolicy=1by1_wide_1242"
+      }
+    ]
+  }
+]

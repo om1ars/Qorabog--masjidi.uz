@@ -1,0 +1,32 @@
+.add__container {
+    width: 100%;
+    margin: auto;
+    /* position: fixed; */
+    bottom: 0;
+    background-color: #d4e9e2;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.close {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+.add__container >  span {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    letter-spacing: 1px;
+}
+.add__container > span > img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+}
+.close_container {
+}  

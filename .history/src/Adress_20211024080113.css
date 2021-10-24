@@ -1,0 +1,10 @@
+.adress {
+    padding: 40;
+    display: flex;
+}
+.adress__context {
+    flex: .4;
+}
+.adress__image {
+    flex: 1;
+}
