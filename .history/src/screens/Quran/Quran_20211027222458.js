@@ -1,0 +1,30 @@
+import React, { useEffect, useState } from "react";
+import SearchBar from "material-ui-search-bar";
+import "./Quran.css";
+import { SingleChapter } from "./SingleChapter";
+import { Search } from "@material-ui/icons";
+import QuranChart from "./QuranChart";
+
+function Quran({ quranData, loading, setLoading }) {
+  const [input, setInput] = useState("");
+  const [output, setOutput] = useState([]);
+
+  // useEffect(() => {
+  //   setOutput([]);
+  //   chapters.filter((val) => {
+  //     if (val.transliteration.toLowerCase().includes(input.toLowerCase())) {
+  //       setOutput((output) => [...output, val]);
+  //     }
+  //   });
+  // }, [input]);
+
+  return (
+    <div className="Bx">
+      <div>
+        <SingleChapter loading={loading} setLoading={setLoading} quranData={quranData} />
+      </div>
+    </div>
+  );
+}
+
+export default Quran;
