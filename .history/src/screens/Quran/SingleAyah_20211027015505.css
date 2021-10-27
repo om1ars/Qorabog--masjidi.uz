@@ -1,0 +1,9 @@
+.singleAyah__number {
+    padding: 8px 10px;
+    background-color: #d4e9e2;
+    /* border-radius: 50%; */
+    margin-right: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

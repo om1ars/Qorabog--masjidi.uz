@@ -1,0 +1,35 @@
+import axios from "axios";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router";
+import { chapters } from "../../store/ru";
+// import { ArabAyah } from "../../store/quran";
+
+export const SingleSurah = ({}) => {
+  const { number } = useParams();
+
+ 
+  const [singledata, setSingleData] = useState([])
+
+  const url = `http://api.alquran.cloud/v1/surah/${number}`
+  const fetchData = () => {
+    axios.get(url).then((res) => {
+      const allData = res.data.data
+      console.log(allData);
+      setSingleData(allData)
+    }).catch((error => console.error(`error: ${error}`)))
+  }
+
+  useEffect(() => {
+    fetchData()
+  },[])
+
+
+
+  return (
+    <div>
+      {singledata.map(() => (
+        <div></div>
+      ))}
+    </div>
+  );
+};

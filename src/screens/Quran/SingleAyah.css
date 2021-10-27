@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300&family=Scheherazade+New:wght@400;700&display=swap');
+
+.singleAyah__number {
+    padding: 8px 10px;
+    background-color: #d4e9e2;
+    /* border-radius: 50%; */
+    margin-right: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
