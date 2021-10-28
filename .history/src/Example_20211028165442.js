@@ -27,8 +27,8 @@ const links = [
     link: '/hadith'
   },
   {
-    title: 'Bosh sahifa',
-    link: '/'
+    title: 'Hadislar',
+    link: '/hadith'
   },
 ]
 

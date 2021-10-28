@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: omar-slf
+      - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MASJID_5AF9F }}'
-          projectId: masjid-5af9f
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MASJIDUZ_D3D08 }}'
+          projectId: masjiduz-d3d08
