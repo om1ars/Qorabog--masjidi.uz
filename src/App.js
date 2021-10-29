@@ -31,7 +31,7 @@ function App() {
   const [quranData, setQuranData] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const url = "http://api.alquran.cloud/v1/surah";
+  const url = "https://api.alquran.cloud/v1/surah";
   const fetchData = () => {
     setLoading(true);
     axios
