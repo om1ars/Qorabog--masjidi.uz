@@ -6,7 +6,7 @@ function Category({ categories, filterItems }) {
       <div className="btn-container">
         {categories.map((category, index) => {
           return (
-            <p
+            <button
             style={{fontSize:'18px'}}
               type="button"
               className="filter-btn"
@@ -14,7 +14,7 @@ function Category({ categories, filterItems }) {
               onClick={() => filterItems(category)}
             >
               {category}
-            </p>
+            </button>
           );
         })}
       </div>

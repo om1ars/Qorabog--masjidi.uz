@@ -13,3 +13,9 @@ export const fetchQuran = () => {
 };
 
 
+
+export const fetchSingleSurah = () => {
+  return fetch(Url(number)).then((res) => {
+    return res.json()
+  })
+}

@@ -165,12 +165,8 @@
     overflow-x: scroll;
     padding-right: 15px;
     padding-left: 15px;
-    display: flex;
-    flex-direction: column;
   }
-  .btn-container > p { 
-    font-size: 14px;
-  }
+  .
   .filter-btn {
     margin-right: 15px;
     margin-left: 15px;

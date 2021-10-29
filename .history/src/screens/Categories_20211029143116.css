@@ -154,25 +154,21 @@
   }
 }
 
-/* @media (max-width: 500px) {
-  .btn-container {
-    padding: 15px;
-  }
-} */
-
 @media (max-width: 500px) {
   .btn-container {
-    overflow-x: scroll;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-  }
-  .btn-container > p { 
-    font-size: 14px;
+    padding: 15px;
   }
   .filter-btn {
     margin-right: 15px;
     margin-left: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn-container { 
+    width: 80%;
+    overflow-x: scroll;
+    padding-right: 15px;
+
   }
 }

@@ -13,3 +13,7 @@ export const fetchQuran = () => {
 };
 
 
+
+export const fetchSingleSurah = () => {
+  return fetch(Url(number))
+}

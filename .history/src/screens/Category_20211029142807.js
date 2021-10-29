@@ -6,15 +6,15 @@ function Category({ categories, filterItems }) {
       <div className="btn-container">
         {categories.map((category, index) => {
           return (
-            <p
-            style={{fontSize:'18px'}}
+            <button
+            
               type="button"
               className="filter-btn"
               key={index}
               onClick={() => filterItems(category)}
             >
               {category}
-            </p>
+            </button>
           );
         })}
       </div>

@@ -1,8 +1,5 @@
 const apiUrl = 'http://api.alquran.cloud/v1/surah';
 
-export const Url = (number) => `http://api.alquran.cloud/v1/surah/${number}`;
-
-
 export const fetchQuran = () => {
   return fetch(apiUrl)
     .then((res) => {
@@ -11,5 +8,3 @@ export const fetchQuran = () => {
     .then((allData) => allData.data.data)
     .catch((error) => Promise.reject(error));
 };
-
-
